@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "ava"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,14 @@
     "dotenv": "^4.0.0",
     "micro": "^9.0.0",
     "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0"
+  },
+  "ava": {
+    "files": ["tests/*.spec.js"],
+    "source": ["**/*,js"],
+    "failFast": true,
+    "tap": true
   }
 }
