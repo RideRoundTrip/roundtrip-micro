@@ -4,4 +4,4 @@ const Token = require('./lib/token');
 
 module.exports.Server = new Server;
 module.exports.Environment = new Environment;
-module.exports.Token = Token;
+module.exports.Token = new Token;
