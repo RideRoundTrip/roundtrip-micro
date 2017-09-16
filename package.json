@@ -1,11 +1,12 @@
 {
   "name": "roundtrip-micro",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "ava"
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=html"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "ava": "^0.22.0",
+    "nyc": "^11.2.1",
     "then-sleep": "^1.0.1"
   },
   "ava": {
@@ -28,5 +30,10 @@
     ],
     "failFast": true,
     "tap": true
+  },
+  "nyc": {
+    "exclude": [
+      "tests/*.spec.js"
+    ]
   }
 }
