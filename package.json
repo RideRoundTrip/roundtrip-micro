@@ -16,11 +16,16 @@
     "node-fetch": "^1.7.3"
   },
   "devDependencies": {
-    "ava": "^0.22.0"
+    "ava": "^0.22.0",
+    "then-sleep": "^1.0.1"
   },
   "ava": {
-    "files": ["tests/*.spec.js"],
-    "source": ["**/*,js"],
+    "files": [
+      "tests/*.spec.js"
+    ],
+    "source": [
+      "**/*,js"
+    ],
     "failFast": true,
     "tap": true
   }
