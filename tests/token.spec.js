@@ -58,3 +58,11 @@ test('isValid method should be true if token is set and not expired', t => {
   t.context.token = 'test-token';
   t.true(t.context.isValid());
 });
+
+test('setExpTime method should update expTime', t => {
+  t.plan(2);
+
+  t.is(t.context.expTime, 1000);
+  t.context.setExpTime(5000);
+  t.is(t.context.expTime, 5000);
+});
