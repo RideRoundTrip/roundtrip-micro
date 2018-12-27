@@ -13,12 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "micro": "^9.0.0",
+    "micro": "^9.3.3",
     "node-fetch": "^1.7.3"
   },
   "devDependencies": {
     "ava": "^0.22.0",
-    "nyc": "^11.2.1",
+    "nyc": "^11.9.0",
     "then-sleep": "^1.0.1"
   },
   "ava": {
