@@ -21,7 +21,7 @@
 ## Usage
 
 1. Add dependency to `package.json` file (e.g. `https://github.com/RideRoundTrip/roundtrip-micro#1.0.4`)
-2. Add `.env` file (see sample below)
+2. Rename `.env-template` file (see sample below)
 3. Run `npm i`
 
 ## Sample ENV File
