@@ -7,8 +7,9 @@
 
 ## Installation
 
-1. Add and update `.env` file
-1. Run `npm i`
+1. Copy `.env.template` in same directory and rename it to `.env`.
+1. Update `.env` file.
+1. Run `npm i`.
 
 ## Features
 
@@ -17,6 +18,9 @@
 * Token management
 * Environment config using `.env` file
 * Includes Node Fetch package to make HTTP requests
+* Logging using Winston.
+* Logger integration with Sentry.
+
 
 ## Usage
 
@@ -35,6 +39,10 @@ PORT=1337
 LYFT_CLIENT_ID=xxxxxx
 LYFT_CLIENT_SECRET=xxxxxx-xxxxxx
 LYFT_REFRESH_TOKEN=xxxxxx-xxxxxx
+
+# Logging Config
+LOG_FILE=/tmp/micro.log
+SENTRY_DSN=https:<>@sentry.io/1
 ```
 
 ## Development
