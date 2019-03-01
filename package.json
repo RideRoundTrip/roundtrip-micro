@@ -1,5 +1,5 @@
 {
-  "name": "roundtrip-micro",
+  "name": "@rideroundtrip/roundtrip-micro",
   "version": "1.1.2",
   "description": "RoundTrip MicroService Framework",
   "keywords": [],
