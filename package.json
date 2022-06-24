@@ -33,7 +33,7 @@
     "@sentry/node": "^4.5.3",
     "dotenv": "^4.0.0",
     "micro": "^9.3.3",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.6.7",
     "uuid": "^3.3.2",
     "winston": "^3.2.0",
     "winston-transport": "^4.3.0"
