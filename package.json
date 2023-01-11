@@ -39,8 +39,8 @@
     "winston-transport": "^4.3.0"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
-    "nyc": "^11.9.0",
+    "ava": "^5.1.0",
+    "nyc": "^15.1.0",
     "then-sleep": "^1.0.1"
   },
   "ava": {
